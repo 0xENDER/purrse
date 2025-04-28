@@ -11,12 +11,12 @@ A tracking app meant to help you "purrrsue ^..^" your financial goals!
 > [!IMPORTANT]
 > Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
 
-### Debug using Metro
+### Using Metro
 
 ```sh
 # You need to generate local assets if you're running this for the first time!
 npm run assets
-# Then you can start the app!
+# Then you can start the app! (debug mode)
 npm start
 npm run android
 ```
