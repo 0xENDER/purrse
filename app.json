@@ -1,4 +1,12 @@
 {
-  "name": "Purrse",
-  "displayName": "Purrse"
+    "name": "Purrse",
+    "displayName": "Purrse",
+    "svgAppIcon": {
+        "foregroundPath": "./assets/brand/maskable-green-logo.svg",
+        "platforms": [
+            "android"
+        ],
+        "force": false,
+        "androidOutputPath": "./android/app/src/main/res"
+    }
 }

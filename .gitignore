@@ -73,3 +73,7 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Generated assets
+android/**/ic_launcher*.xml
+android/**/ic_launcher*.png
