@@ -14,6 +14,9 @@ A tracking app meant to help you "purrrsue ^..^" your financial goals!
 ### Debug using Metro
 
 ```sh
+# You need to generate local assets if you're running this for the first time!
+npm run assets
+# Then you can start the app!
 npm start
 npm run android
 ```
