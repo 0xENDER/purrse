@@ -77,3 +77,5 @@ yarn-error.log
 # Generated assets
 android/**/ic_launcher*.xml
 android/**/ic_launcher*.png
+*.apk
+*.aab

@@ -10,8 +10,8 @@
     "start": "react-native start",
     "test": "jest",
     "build-android": "npm run assets && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/build/outputs/bundle/release/app-release.js --sourcemap-output android/app/build/outputs/bundle/release/app-release.js.map",
-    "android-release-bundle": "npm run build-android && cd android && gradlew app:bundleRelease",
-    "android-release": "npm run build-android && cd android && gradlew app:assembleRelease"
+    "android-release-bundle": "npm run build-android && cd android && gradlew app:bundleRelease && copy /v /y .\\app\\build\\outputs\\bundle\\release\\app-release.aab .\\..\\purrse.aab",
+    "android-release": "npm run build-android && cd android && gradlew app:assembleRelease && copy /v /y .\\app\\build\\outputs\\apk\\release\\app-release.apk .\\..\\purrse.apk"
   },
   "dependencies": {
     "react": "19.0.0",
